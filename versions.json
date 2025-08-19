@@ -1,11 +1,24 @@
 {
   "scripts": {
     "lrd_pausemenu": {
-      "latest_version": "1.0.1",
+      "latest_version": "1.0.2",
       "download": "https://portal.cfx.re/assets/granted-assets?search=lrd_pausemenu",
       "versions": {
+        "1.0.2": {
+          "date": "2025-01-19",
+          "mandatory": false,
+          "hotfix": true,
+          "changes": [
+            "Fix stats card titles localization",
+            "Add missing stats translations to all locale files",
+            "Update config to use locale system for stats titles",
+            "Fix Gilroy font MIME type error",
+            "Replace CSS imports with @font-face declarations",
+            "Add support for 6 languages (EN, FR, ES, DE, IT, PT)"
+          ]
+        },
         "1.0.1": {
-          "date": "2024-01-02",
+          "date": "2025-08-19",
           "mandatory": false,
           "hotfix": true,
           "changes": [
@@ -19,12 +32,10 @@
           ]
         },
         "1.0.0": {
-          "date": "2024-01-01",
+          "date": "2025-08-18",
           "mandatory": true,
           "hotfix": false,
-          "changes": [
-            "Initial Version",
-          ]
+          "changes": ["Initial Version"]
         }
       }
     }
