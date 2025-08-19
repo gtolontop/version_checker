@@ -13,7 +13,8 @@
             "Remove unused comments",
             "Refactor script security",
             "Optimize script",
-            "Change fxmanifest path"
+            "Change fxmanifest path",
+            "Refactor Disconnect Modal"
           ]
         },
         "1.0.0": {
