@@ -1,1 +1,30 @@
-
+{
+  "scripts": {
+    "lrd_pausemenu": {
+      "latest_version": "1.0.1",
+      "download": "https://portal.cfx.re/assets/granted-assets?search=lrd_pausemenu",
+      "versions": {
+        "1.0.1": {
+          "date": "2024-01-02",
+          "mandatory": false,
+          "hotfix": true,
+          "changes": [
+            "Add version_checker",
+            "Remove unused comments",
+            "Refactor script security",
+            "Optimize script",
+            "Change fxmanifest path"
+          ]
+        },
+        "1.0.0": {
+          "date": "2024-01-01",
+          "mandatory": true,
+          "hotfix": false,
+          "changes": [
+            "Initial Version",
+          ]
+        }
+      }
+    }
+  }
+}
