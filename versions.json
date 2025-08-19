@@ -14,7 +14,8 @@
             "Refactor script security",
             "Optimize script",
             "Change fxmanifest path",
-            "Refactor Disconnect Modal"
+            "Refactor Disconnect Modal",
+            "Change gradient of the script"
           ]
         },
         "1.0.0": {
