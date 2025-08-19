@@ -1,10 +1,23 @@
 {
   "scripts": {
     "lrd_pausemenu": {
-      "latest_version": "1.0.2",
+      "latest_version": "1.0.3",
       "download": "https://portal.cfx.re/assets/granted-assets?search=lrd_pausemenu",
       "description": "Advanced pause menu system with multi-framework support and modern UI",
       "versions": {
+                "1.0.3": {
+          "date": "2025-01-19",
+          "mandatory": true,
+          "hotfix": true,
+          "changes": [
+            "Fix stats card titles localization",
+            "Add missing stats translations to all locale files",
+            "Update config to use locale system for stats titles",
+            "Fix Gilroy font MIME type error",
+            "Replace CSS imports with @font-face declarations",
+            "Add support for 6 languages (EN, FR, ES, DE, IT, PT)"
+          ]
+        },
         "1.0.2": {
           "date": "2025-01-19",
           "mandatory": true,
