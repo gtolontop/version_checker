@@ -41,15 +41,21 @@
       }
     },
     "lrd_loadingscreen": {
-        "latest_version": "1.0.2",
+        "latest_version": "1.0.1",
         "download": "https://portal.cfx.re/assets/granted-assets?search=lrd_pausemenu",
-        "description": "Advanced pause menu system with multi-framework support and modern UI",
+        "description": "Advanced loading screen support and modern UI",
         "versions": {
           "1.0.0": {
-            "date": "2025-08-31",
+            "date": "2025-09-27",
             "mandatory": true,
             "hotfix": false,
             "changes": ["Initial Version"]
+          },
+          "1.0.1": {
+            "date": "2025-10-03",
+            "mandatory": true,
+            "hotfix": false,
+            "changes": ["Fix Some Bugs and Add Optimization"]
           }
         }
       }
